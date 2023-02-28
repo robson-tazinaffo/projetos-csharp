@@ -1,9 +1,5 @@
 ## Projetos C#
 
-```
-
-```
-
 
 
 ## Links Úteis
