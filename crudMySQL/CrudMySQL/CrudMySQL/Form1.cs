@@ -35,7 +35,6 @@ namespace CrudMySQL
 
                 MessageBox.Show("Registro inserido com sucesso!");
 
-
             }
             catch (Exception ex)
             {
