@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace crudSQLite
@@ -16,7 +13,7 @@ namespace crudSQLite
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new formLogin());
+            Application.Run(new FormLogin());
         }
     }
 }

@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace crudSQLite
@@ -25,6 +18,17 @@ namespace crudSQLite
         private void button1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormCliente formulario = new FormCliente();
+            formulario.Show();
+        }
+
+        private void FormPrincipal_Deactivate(object sender, EventArgs e)
+        {
+            //Application.Exit();
         }
     }
 }
